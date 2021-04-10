@@ -1287,7 +1287,7 @@ if sidebar == "English":
     
     index=['POP','SRS','SS','RS','PPS','Strat']
     
-    Compare_sd=pd.DataFrame({'POP':l0,'SRS':l1,'SS':l2,'RS':l3,'PPS':l4,'Strat':l5},index=index )
+    Compare_sd=pd.DataFrame({'POP':k0,'SRS':k1,'SS':k2,'RS':k3,'PPS':k4,'Strat':k5},index=index )
 
 
 if select_box_4 == "Comparaison des moyennes":
