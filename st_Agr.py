@@ -228,7 +228,7 @@ elif select_box_1 == "Greenhouse":
     st.altair_chart(chart)
 
 elif select_box_1 == "Field area":
-    chart = alt.Chart(df).transform_density(
+    chart = alt.Chart(df_en).transform_density(
     'Field_area',
     as_=['Field_area', 'density'],).mark_area().encode(
     x="Field_area:Q",
