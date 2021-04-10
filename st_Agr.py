@@ -1278,12 +1278,12 @@ if sidebar == "English":
     k=np.array([np.std(df_en['Field_area']),np.std(df_SRS['Field_area']),np.std(df_SS['Field_area']),
         np.std(df_RS['Field_area']),np.std(df_PPS_en['Field_area']),np.std(df_Strat['Field_area'])])
     
-    k0=l/np.std(df_en['Field_area'])
-    k1=l/np.std(df_SRS['Field_area'])
-    k2=l/np.std(df_SS['Field_area'])
-    k3=l/np.std(df_RS['Field_area'])
-    k4=l/np.std(df_PPS_en['Field_area'])
-    k5=l/np.std(df_Strat['Field_area'])
+    k0=k/np.std(df_en['Field_area'])
+    k1=k/np.std(df_SRS['Field_area'])
+    k2=k/np.std(df_SS['Field_area'])
+    k3=k/np.std(df_RS['Field_area'])
+    k4=k/np.std(df_PPS_en['Field_area'])
+    k5=k/np.std(df_Strat['Field_area'])
     
     index=['POP','SRS','SS','RS','PPS','Strat']
     
